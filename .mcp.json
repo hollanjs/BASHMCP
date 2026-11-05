@@ -1,0 +1,17 @@
+{
+	"mcpServers": {
+		"bashmcp": {
+			"type": "stdio",
+			"command": "bash",
+			"args": [
+				"/home/hollanjs/dev/BASHMCP/bashmcp.sh"
+			],
+			"tools": [
+				"*"
+			],
+			"env": {
+				"BASHMCP_ROOT": "/home/hollanjs/dev/BASHMCP"
+			}
+		}
+	}
+}
